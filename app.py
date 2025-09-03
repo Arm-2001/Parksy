@@ -538,7 +538,7 @@ Current time: {datetime.datetime.now().strftime('%A, %B %d, %Y at %I:%M %p')}
                 }
                 
                 payload = {
-                    "model": "deepseek/deepseek-r1",
+                    "model": "deepseek/deepseek-r1:free",
                     "messages": messages,
                     "temperature": 0.8,
                     "max_tokens": 600
